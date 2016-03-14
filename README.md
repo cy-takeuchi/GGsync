@@ -16,7 +16,9 @@ $ ./gradlew clean build copy
 ```sh
 $ cp ./src/main/resources/GGsync.properties .
 ```
-and rewrite GGsync.properties
+
+and rewrite GGsync.properties.
+
 See also https://cybozudev.zendesk.com/hc/ja/articles/204426680
 
 ### 3.Synchronize
