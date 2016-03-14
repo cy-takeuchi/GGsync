@@ -1,0 +1,12 @@
+*~
+.gradle
+/build
+*.classpath
+*.project
+*.settings
+/bin
+.nb-gradle
+GGsync.properties
+GGsync.db
+GGsync.jar
+*.p12
