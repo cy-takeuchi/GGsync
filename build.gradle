@@ -61,12 +61,6 @@ jar {
   exclude 'META-INF/*.RSA', 'META-INF/*.SF','META-INF/*.DSA'
 }
 
-run {
-    if (project.hasProperty('args')) {
-        args project.args.split('\\s+')
-    }
-}
-
 task copy(type: Copy) {
   from 'build/libs/GGsync.jar'
   into '.'
